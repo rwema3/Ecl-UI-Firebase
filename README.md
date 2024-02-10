@@ -10,8 +10,9 @@ the project library is versatile; it's tailored to work seamlessly on the Web, m
 
 - Poppins [link](https://fonts.google.com/specimen/Poppins)
 
-### Responsive Admin Panel or Dashboard Final UI Preview
+### Credits
+
+- refrenced some features here
 
 ![Preview](/gif.gif)
 
-![App UI](/ui.png)
