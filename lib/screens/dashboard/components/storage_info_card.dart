@@ -40,4 +40,7 @@ class StorageInfoCard extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Text(
+                    title,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
             
