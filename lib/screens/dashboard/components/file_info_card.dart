@@ -10,3 +10,6 @@ class FileInfoCard extends StatelessWidget {
     required this.info,
   }) : super(key: key);
 
+  final CloudStorageInfo info;
+
+  @override
