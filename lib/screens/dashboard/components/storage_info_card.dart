@@ -33,4 +33,7 @@ class StorageInfoCard extends StatelessWidget {
             width: 20,
             child: SvgPicture.asset(svgSrc),
           ),
-          Ex
+          Expanded(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
+            
