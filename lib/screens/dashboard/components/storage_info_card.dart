@@ -38,4 +38,6 @@ class StorageInfoCard extends StatelessWidget {
               padding: const EdgeInsets.symmetric(horizontal: defaultPadding),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Text(
             
