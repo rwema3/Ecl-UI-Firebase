@@ -5,4 +5,6 @@ class DashboardScreen extends StatelessWidget {
     return SafeArea(
       child: SingleChildScrollView(
         primary: false,
-        pa
+        padding: EdgeInsets.all(defaultPadding),
+        child: Column(
+          
