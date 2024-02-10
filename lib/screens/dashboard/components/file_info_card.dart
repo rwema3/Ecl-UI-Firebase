@@ -49,3 +49,8 @@ class FileInfoCard extends StatelessWidget {
             maxLines: 1,
             overflow: TextOverflow.ellipsis,
           ),
+          ProgressLine(
+            color: info.color,
+            percentage: info.percentage,
+          ),
+          Row(
