@@ -5,3 +5,5 @@ import 'package:flutter_svg/flutter_svg.dart';
 import '../../../constants.dart';
 
 class FileInfoCard extends StatelessWidget {
+  const FileInfoCard({
+    Key? key,
