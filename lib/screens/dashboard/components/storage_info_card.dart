@@ -29,4 +29,8 @@ class StorageInfoCard extends StatelessWidget {
       child: Row(
         children: [
           SizedBox(
-            
+            height: 20,
+            width: 20,
+            child: SvgPicture.asset(svgSrc),
+          ),
+          Ex
