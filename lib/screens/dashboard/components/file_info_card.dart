@@ -31,3 +31,7 @@ class FileInfoCard extends StatelessWidget {
                 padding: EdgeInsets.all(defaultPadding * 0.75),
                 height: 40,
                 width: 40,
+                decoration: BoxDecoration(
+                  color: info.color!.withOpacity(0.1),
+                  borderRadius: const BorderRadius.all(Radius.circular(10)),
+                ),
