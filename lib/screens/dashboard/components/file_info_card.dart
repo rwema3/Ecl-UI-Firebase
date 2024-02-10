@@ -7,3 +7,6 @@ import '../../../constants.dart';
 class FileInfoCard extends StatelessWidget {
   const FileInfoCard({
     Key? key,
+    required this.info,
+  }) : super(key: key);
+
