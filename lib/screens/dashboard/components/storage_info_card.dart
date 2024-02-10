@@ -12,4 +12,8 @@ class StorageInfoCard extends StatelessWidget {
     required this.numOfFiles,
   }) : super(key: key);
 
+  final String title, svgSrc, amountOfFiles;
+  final int numOfFiles;
+
+  @override
   
