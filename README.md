@@ -10,9 +10,9 @@ the project library is versatile; it's tailored to work seamlessly on the Web, m
 
 - Poppins [link](https://fonts.google.com/specimen/Poppins)
 
-### Credits
+### UX
 
-- refrenced some features here
+- How it will look like
 
 ![Preview](/gif.gif)
 
