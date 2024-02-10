@@ -14,4 +14,9 @@ class DashboardScreen extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Expanded(
+                  flex: 5,
+                  child: Column(
+                    children: [
+                      MyFiles(),
+                      SizedBox(height: defaultPadding),
           
