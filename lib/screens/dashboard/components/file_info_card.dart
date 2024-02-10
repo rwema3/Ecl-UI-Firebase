@@ -26,3 +26,5 @@ class FileInfoCard extends StatelessWidget {
         children: [
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Container(
