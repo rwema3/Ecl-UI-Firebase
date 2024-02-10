@@ -54,3 +54,8 @@ class FileInfoCard extends StatelessWidget {
             percentage: info.percentage,
           ),
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            children: [
+              Text(
+                "${info.numOfFiles} Files",
+
