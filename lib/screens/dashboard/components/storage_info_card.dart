@@ -26,4 +26,7 @@ class StorageInfoCard extends StatelessWidget {
           Radius.circular(defaultPadding),
         ),
       ),
-      
+      child: Row(
+        children: [
+          SizedBox(
+            
