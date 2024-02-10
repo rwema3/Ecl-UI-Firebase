@@ -44,3 +44,8 @@ class FileInfoCard extends StatelessWidget {
               Icon(Icons.more_vert, color: Colors.white54)
             ],
           ),
+          Text(
+            info.title!,
+            maxLines: 1,
+            overflow: TextOverflow.ellipsis,
+          ),
