@@ -13,3 +13,5 @@ class FileInfoCard extends StatelessWidget {
   final CloudStorageInfo info;
 
   @override
+  Widget build(BuildContext context) {
+    return Container(
