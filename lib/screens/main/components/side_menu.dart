@@ -77,3 +77,4 @@ class DrawerListTile extends StatelessWidget {
     return ListTile(
       onTap: press,
       horizontalTitleGap: 0.0,
+      leading: SvgPicture.asset(
