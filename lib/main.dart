@@ -22,3 +22,5 @@ class MyApp extends StatelessWidget {
             .apply(bodyColor: Colors.white),
         canvasColor: secondaryColor,
       ),
+      home: MultiProvider(
+        providers: [
