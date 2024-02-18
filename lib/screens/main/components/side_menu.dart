@@ -65,3 +65,4 @@ class DrawerListTile extends StatelessWidget {
     Key? key,
     // For selecting those three line once press "Command+D"
     required this.title,
+    required this.svgSrc,
