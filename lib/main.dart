@@ -16,3 +16,4 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Admin Panel',
+      theme: ThemeData.dark().copyWith(
