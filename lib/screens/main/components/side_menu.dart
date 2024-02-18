@@ -3,3 +3,5 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 class SideMenu extends StatelessWidget {
   const SideMenu({
+    Key? key,
+  }) : super(key: key);
