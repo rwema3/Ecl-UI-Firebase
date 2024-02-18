@@ -18,3 +18,5 @@ class MyApp extends StatelessWidget {
       title: 'Admin Panel',
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: bgColor,
+        textTheme: GoogleFonts.poppinsTextTheme(Theme.of(context).textTheme)
+            .apply(bodyColor: Colors.white),
