@@ -69,3 +69,7 @@ class DrawerListTile extends StatelessWidget {
     required this.press,
   }) : super(key: key);
 
+  final String title, svgSrc;
+  final VoidCallback press;
+
+  @override
