@@ -25,3 +25,6 @@ class MyApp extends StatelessWidget {
       home: MultiProvider(
         providers: [
           ChangeNotifierProvider(
+            create: (context) => MenuAppController(),
+          ),
+        ],
