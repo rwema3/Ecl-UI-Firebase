@@ -81,3 +81,6 @@ class DrawerListTile extends StatelessWidget {
         svgSrc,
         colorFilter: ColorFilter.mode(Colors.white54, BlendMode.srcIn),
         height: 16,
+      ),
+      title: Text(
+        title,
