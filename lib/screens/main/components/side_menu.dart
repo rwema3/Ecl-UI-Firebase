@@ -78,3 +78,6 @@ class DrawerListTile extends StatelessWidget {
       onTap: press,
       horizontalTitleGap: 0.0,
       leading: SvgPicture.asset(
+        svgSrc,
+        colorFilter: ColorFilter.mode(Colors.white54, BlendMode.srcIn),
+        height: 16,
