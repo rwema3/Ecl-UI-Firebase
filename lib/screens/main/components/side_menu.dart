@@ -34,3 +34,8 @@ class SideMenu extends StatelessWidget {
             svgSrc: "assets/icons/menu_doc.svg",
             press: () {},
           ),
+          DrawerListTile(
+            title: "Store",
+            svgSrc: "assets/icons/menu_store.svg",
+            press: () {},
+          ),
