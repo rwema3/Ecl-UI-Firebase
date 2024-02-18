@@ -53,3 +53,10 @@ class SideMenu extends StatelessWidget {
             title: "Settings",
             svgSrc: "assets/icons/menu_setting.svg",
             press: () {},
+          ),
+        ],
+      ),
+    );
+  }
+}
+
