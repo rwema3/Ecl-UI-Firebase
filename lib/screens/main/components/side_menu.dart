@@ -75,3 +75,5 @@ class DrawerListTile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListTile(
+      onTap: press,
+      horizontalTitleGap: 0.0,
