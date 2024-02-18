@@ -24,3 +24,4 @@ class MyApp extends StatelessWidget {
       ),
       home: MultiProvider(
         providers: [
+          ChangeNotifierProvider(
