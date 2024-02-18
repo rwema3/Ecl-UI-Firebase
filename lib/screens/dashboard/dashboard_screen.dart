@@ -35,4 +35,6 @@ class DashboardScreen extends StatelessWidget {
                     ],
                   ),
                 ),
+                if (!Responsive.isMobile(context))
+                  SizedBox(width: defaultPadding),
  
