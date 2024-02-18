@@ -26,4 +26,6 @@ class DashboardScreen extends StatelessWidget {
                   flex: 5,
                   child: Column(
                     children: [
+                      MyFiles(),
+                      SizedBox(height: defaultPadding),
  
