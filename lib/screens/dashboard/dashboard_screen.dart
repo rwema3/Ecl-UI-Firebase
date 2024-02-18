@@ -24,4 +24,6 @@ class DashboardScreen extends StatelessWidget {
               children: [
                 Expanded(
                   flex: 5,
+                  child: Column(
+                    children: [
  
