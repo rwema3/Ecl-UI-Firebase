@@ -17,3 +17,4 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Admin Panel',
       theme: ThemeData.dark().copyWith(
+        scaffoldBackgroundColor: bgColor,
