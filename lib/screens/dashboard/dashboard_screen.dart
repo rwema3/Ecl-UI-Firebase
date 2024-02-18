@@ -42,4 +42,12 @@ class DashboardScreen extends StatelessWidget {
                   Expanded(
                     flex: 2,
                     child: StorageDetails(),
- 
+                  ),
+              ],
+            )
+          ],
+        ),
+      ),
+    );
+  }
+}
